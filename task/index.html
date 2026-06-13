@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+        body {
+            padding: 33px;
+            background-color: antiquewhite;
+        }
+
+        .card {
+            background-color: white;
+            border: 2px solid rgb(255, 255, 255);
+            height: 410px;
+            width: 164px;
+            border-radius: 7px;
+        }
+
+        .image img {
+            border-radius: 7px;
+            display: block;
+            margin: 0 auto;
+            margin-top: 10px;
+            font-family: "gf_Young_Serif variant0", Tofu;
+
+        }
+
+        h2 {
+            font-family: 'Young Serif', serif;
+            font-size: 10px;
+            margin: 10px;
+
+        }
+
+        p {
+            font-size: 4px;
+            text-align: center;
+            font-family: 'Outfit', sans-serif;
+            font-weight: 400;
+            color: #5f5653;
+        }
+
+        .prep {
+            border: 2px solid white;
+            background-color: rgb(243, 233, 243);
+            border-radius: 7px;
+            height: 40px;
+        }
+
+        h3 {
+            font-size: 4px;
+            margin: 7px;
+            color: rgb(63, 6, 63);
+        }
+
+        .prep ul {
+            font-size: 3px;
+            padding-left: 11px;
+            color: #5f5653;
+            margin-left: 0px;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        ul li {
+            margin-bottom: 2px;
+            padding-left: 3px;
+        }
+
+        .prep ul li::marker {
+            color: rgb(63, 6, 63);
+            font-weight: bold;
+            
+        }
+
+        .recipe ul li::marker {
+            color: rgb(110, 82, 45);
+            font-weight: bold;
+        }
+
+        h4 {
+            font-size: 7px;
+            margin-bottom: 2px;
+            font-family: 'Young Serif', serif;
+            margin: 10px;
+            color: rgb(110, 82, 45);
+        }
+
+        .light-line {
+            border: none;
+            border-top: 0.3px solid #e0e0e0;
+            margin-top: 0px;
+            width: 154px;
+        }
+
+        h5 {
+            font-size: 7px;
+            margin-bottom: 2px;
+            font-family: 'Young Serif', serif;
+            margin: 10px;
+            color: rgb(110, 82, 45);
+        }
+
+        ol {
+            font-size: 3px;
+            padding-left: 11px;
+            margin-left: 0px;
+            color: #5f5653;
+            font-size: 4px;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        ol li {
+            margin-bottom: 2px;
+             padding-left: 3px;
+        }
+
+        ol li::marker {
+            color: #854632;
+            font-weight: bold;
+        }
+
+        h6 {
+            font-size: 7px;
+            margin-bottom: 2px;
+            font-family: 'Young Serif', serif;
+            margin: 10px;
+            color: rgb(110, 82, 45);
+        }
+
+        .nutrition-table {
+            flex-direction: column;
+            font-size: 3px;
+
+
+            .nutrition-row:last-child {
+                border-bottom: none;
+            }
+
+            .nutrition-row .label {
+                color: #5f5653;
+                font-size: 4px;
+                width: 50%;
+                text-align: center;
+               text-align: left;
+               padding-left: 15px;
+            }
+
+            .nutrition-row .value {
+                color: #854632;
+                font-weight: 700;
+                width: 50%;
+                font-size: 4px;
+                text-align: left;
+                left: 5px;
+            }
+
+            .nutrition-row {
+                display: flex;
+                justify-self: space-between;
+                width: 100%;
+                padding: 2px 0;
+                align-items: center;
+            }
+
+            .nutrition-row {
+                border-bottom: 0.3px solid #e0e0e0;
+                width: 154px;
+                justify-self: center;
+                align-items: center;
+            }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image">
+            <img width="148px" height="80px" src="img 1.jpg" alt="">
+        </div>
+        <h2>Simple Omelette Recipe</h2>
+
+        <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to
+            perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+        <div class="prep">
+            <h3>Preparation time</h3>
+            <ul>
+                <li><strong>Total:</strong> Approximately 10 minutes</li>
+                <li><strong>Preparation:</strong> 5 minutes</li>
+                <li><strong>Cooking:</strong> 5 minutes</li>
+            </ul>
+            <div class="recipe">
+                <h4>Ingredients</h4>
+                <ul>
+                    <li>2-3 large eggs</li>
+                    <li>Salt, to taste</li>
+                    <li>Pepper, to taste</li>
+                    <li>1 tablespoon of butter or oil</li>
+                    <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+                </ul>
+                <hr class="light-line">
+                <div class="recpi">
+                    <h5>Instruction</h5>
+                    <ol>
+                        <li><strong>Beat the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper
+                            until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.
+                        </li>
+                        <li><strong>Heat the pan:</strong> Place a non-stick frying pan over medium heat and add butter
+                            or oil.</li>
+                        <li><strong>Cook the omelette:</strong> Once the butter is melted and bubbling, pour in the
+                            eggs. Tilt the pan to ensure the eggs evenly coat the surface.</li>
+                        <li><strong>Add fillings (optional):</strong> When the eggs begin to set at the edges but are
+                            still slightly runny in the middle, sprinkle your chosen fillings over one half of the
+                            omelette.</li>
+                        <li><strong>Fold and serve:</strong> As the omelette continues to cook, carefully lift one edge
+                            and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.
+                        </li>
+                        <li><strong>Enjoy:</strong> Serve hot, with additional salt and pepper if needed.</li>
+                    </ol>
+                </div>
+                </ol>
+                <hr class="light-line">
+                <h6>Nutrition</h6>
+                <p class="section-intro">The table below shows nutritional values per serving without the additional
+                    fillings.</p>
+                <div class="nutrition-table">
+                    <div class="nutrition-row">
+                        <span class="label">Calories</span>
+                        <span class="value">277kcal</span>
+                    </div>
+                    <div class="nutrition-row">
+                        <span class="label">Carbs</span>
+                        <span class="value">0g</span>
+                    </div>
+                    <div class="nutrition-row">
+                        <span class="label">Protein</span>
+                        <span class="value">20g</span>
+                    </div>
+                    <div class="nutrition-row">
+                        <span class="label">Fat</span>
+                        <span class="value">22g</span>
+                    </div>
+                </div>
+            </div>
+
+</body>
+
+</html>
